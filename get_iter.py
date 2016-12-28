@@ -3,6 +3,7 @@
 import requests
 from collections import Iterable, Iterator
 
+# 迭代器对象，默认需要实现next方法
 class weather_iterator(Iterator):
 	def __init__(self, cities):
 		self.cities = cities
@@ -20,6 +21,7 @@ class weather_iterator(Iterator):
 		self.index += 1
 		return self.getWeather(city)
 
+# 可迭代对象
 class weather_iterable(Iterable):
 	def __init__(self, cities):
 		self.cities = cities
