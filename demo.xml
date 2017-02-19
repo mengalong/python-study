@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="books.xslt"?>
+<!DOCTYPE Books SYSTEM "books.dtd">
+<Books>
+    <book id="1">
+        <title>How to Program in JAVA</title>
+        <author>James Green</author>
+        <price>20</price>
+        <publishHouse>清华大学出版社</publishHouse>
+        <description>是一本莫须有的书</description>
+    </book>
+    <book id="2">
+        <title>How to Program in C#</title>
+        <author>李逍遥</author>
+        <price>12</price>
+        <publishHouse>清华大学出版社</publishHouse>
+        <description>不存在这本书哦</description>
+    </book>
+</Books>
