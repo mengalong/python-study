@@ -11,7 +11,8 @@ def main():
                 print "got exception %s" % err
                 pass
             else:
-                if seconds_passed % seconds == 0:
-                    callable()
+#                if seconds_passed % seconds == 0:
+#                    callable()
+                callable()
             time.sleep(1)
             seconds_passed += 1

@@ -7,5 +7,6 @@ setup(
     entry_points={
         "pytimed": [
             "hello = hello.hello:say_hello",
+            "hello_new = hello.hello:say_hello2"
         ]
     },)

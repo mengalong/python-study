@@ -1,0 +1,2 @@
+import pytimed
+pytimed.main()
